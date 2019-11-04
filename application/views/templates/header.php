@@ -13,13 +13,13 @@ Purpose: This is the header file for the frameworks assignment.
         <meta name="author" content="">
         <meta charset="utf-8">
 
-        <link href="/~rameelzahid/assets/css/main.css" rel="stylesheet">
+        <link href="/~u8792223/assets/css/main.css" rel="stylesheet">
         <link rel="icon" href="favicon.gif" type="image/gif">
 
     </head>
     <body>
         <nav>
-            <a href="/~rameelzahid/index.php/home">Home</a>
-            <a href="/~rameelzahid/index.php/about">About</a>
-            <a href="/~rameelzahid/index.php/contact">Contact</a>
+            <a href="/~u8792223/index.php/home">Home</a>
+            <a href="/~u8792223/index.php/about">About</a>
+            <a href="/~u8792223/index.php/contact">Contact</a>
         </nav>

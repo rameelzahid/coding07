@@ -1,6 +1,8 @@
-/*
-    Your Header Here
-*/
+/*********************
+Name: Rameel Zahid
+Assignment: 07
+Purpose: This is the main css that controls the visuals for the MVC.
+**********************/
 
 
 /*
@@ -8,6 +10,77 @@
 Mobile First CSS
 ***************************************
 */
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Impact, Charcoal, sans-serif;
+}
+
+a {
+		border:1px solid;
+		display: block;
+		color: maroon;
+		padding: 9px 16px;
+		font-family:Impact, Charcoal, sans-serif;
+		background-color:beige
+}
+
+a:hover {
+	background-color: lightblue;
+    color: purple;
+}
+
+h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indigo;
+	text-align:center;
+	
+}
+h2 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indianred;
+	text-align:center;
+	font-size: 36px:
+}
+
+em{
+	font-family:Impact, Charcoal, sans-serif;
+	color:teal;
+	text-align:center;
+	padding-top: 100px
+}
+
+.copyright {
+
+	text-align:center;
+}
+
+p{
+	font-family:Impact, Charcoal, sans-serif;
+	color:steelblue;
+	text-align:center;
+	padding-bottom: 100px;
+}
+
+body{
+		background-color:WhiteSmoke;
+	}
+
+img {
+	width:100%;
+	
+}
+
+.image {
+
+	text-align:center;
+}
 
 
 
@@ -20,12 +93,140 @@ Media Queries
 
 /*this is for tablet*/
 @media (min-width: 468px) and (max-width: 768px) {
-    
+    nav {
+	  list-style-type: none;
+	  margin: 0;
+	  display: block;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  font-family:Impact, Charcoal, sans-serif;
+	}
+
+	a {
+		border:1px solid;
+		display: block;
+		color: maroon;
+		padding: 9px 16px;
+		font-family:Impact, Charcoal, sans-serif;
+		background-color:beige;
+	}
+
+	a:hover {
+		background-color: lightblue;
+		color: purple;
+	}
+	h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indigo;
+	text-align:center;
+	
+	}
+	h2 {
+		font-family:Impact, Charcoal, sans-serif;
+		color:indianred;
+		text-align:center;
+		font-size: 36px;
+	}
+
+	em{
+		font-family:Impact, Charcoal, sans-serif;
+		color:teal;
+		text-align:center;
+		padding-top: 100px;
+	}
+	
+	p{
+	font-family:Impact, Charcoal, sans-serif;
+	color:steelblue;
+	text-align:center;
+	font-size: 18px;
+	}
+	
+	body{
+		background-color:MistyRose;
+	}
+
+	
+	img {
+	width:33.3%;
+	
+	}
+	
+		.image {
+	
+		text-align:center;
+	}
     
 }
 
 /*this is for desktop*/
 @media (min-width: 768px) {
+	nav {
+	  list-style-type: none;
+	  margin: 0;
+	  display: block;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  font-family:Impact, Charcoal, sans-serif;
+	}
 
+	a {
+		border:1px solid;
+		display: block;
+		color: maroon;
+		padding: 9px 16px;
+		font-family:Impact, Charcoal, sans-serif;
+		background-color:beige;
+	}
+
+	a:hover {
+		background-color: lightblue;
+		color: purple;
+	}
+	h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:indigo;
+	text-align:center;
+	
+	}
+	h2 {
+		font-family:Impact, Charcoal, sans-serif;
+		color:indianred;
+		text-align:center;
+		font-size: 36px;
+	}
+
+	em{
+		font-family:Impact, Charcoal, sans-serif;
+		color:teal;
+		text-align:center;
+		padding-top: 100px;
+	}
+	
+	p{
+	font-family:Impact, Charcoal, sans-serif;
+	color:steelblue;
+	text-align:center;
+	font-size: 18px;
+	}
+	
+	body{
+		background-color:NavajoWhite;
+	}
+
+		
+	img {
+	width:66.6%;
+	}
+	
+	.image {
+	
+		text-align:center;
+	}
+	
     
 }
