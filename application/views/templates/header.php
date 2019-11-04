@@ -1,3 +1,8 @@
+<!-- ***************
+Name: Rameel Zahid
+Assignment: 07
+Purpose: This is the header file for the frameworks assignment.
+********************* -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,13 +13,13 @@
         <meta name="author" content="">
         <meta charset="utf-8">
 
-        <link href="/~akatrompas/assets/css/main.css" rel="stylesheet">
+        <link href="/~rameelzahid/assets/css/main.css" rel="stylesheet">
         <link rel="icon" href="favicon.gif" type="image/gif">
 
     </head>
     <body>
         <nav>
-            <a href="/~akatrompas/index.php/home">Home</a>
-            <a href="/~akatrompas/index.php/about">About</a>
-            <a href="/~akatrompas/index.php/contact">Contact</a>
+            <a href="/~rameelzahid/index.php/home">Home</a>
+            <a href="/~rameelzahid/index.php/about">About</a>
+            <a href="/~rameelzahid/index.php/contact">Contact</a>
         </nav>
