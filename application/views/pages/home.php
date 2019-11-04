@@ -8,6 +8,3 @@ Purpose: The purpose of this is to show how the default home page is displayed i
 
 <h2>Welcome to my Home Page</h2>
 
-<div class='image'>
-	<img src=<?='assets/images/welcome.gif'?>></img>
-</div>
