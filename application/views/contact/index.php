@@ -32,7 +32,7 @@ Purpose: This is the display for the contact form
             <textarea name="message" placeholder="YOUR MESSAGE"><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
             <?php echo form_error('message','<p class="field-error">','</p>'); ?>
         </div>
-        <div class
+
         <input type="submit" name="contactSubmit" class="frm-submit" value="Submit">
     </form>
 </div>
