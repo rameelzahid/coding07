@@ -98,6 +98,41 @@ input[type=submit] {
   cursor: pointer;
 }
 
+input[type=text] {
+  width: 100%;
+  font-family:Impact, Charcoal, sans-serif;
+  color:teal;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  font-family:Impact, Charcoal, sans-serif;
+  color:teal;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea[name=message] {
+  width: 100%;
+  font-family:Impact, Charcoal, sans-serif;
+  color:teal;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 /*
 ***************************************
@@ -181,6 +216,42 @@ Media Queries
 	  border-radius: 4px;
 	  cursor: pointer;
 	}
+	
+	input[type=text] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	input[type=email] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	textarea[name=message] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
 
     
 }
@@ -262,6 +333,42 @@ Media Queries
 	  border: none;
 	  border-radius: 4px;
 	  cursor: pointer;
+	}
+	
+	input[type=text] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	input[type=email] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	textarea[name=message] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  color:teal;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
 	}
 
 	

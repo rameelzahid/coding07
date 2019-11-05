@@ -3,7 +3,7 @@ Name: Rameel Zahid
 Assignment: 07
 Purpose: This is the display for the contact form
 ********************* -->
-<h1>Contact Us</h1>
+<h1>Contact Me</h1>
 <div class="content-frm">
     <!-- Display the status message -->
     <?php if(!empty($status)){ ?>
