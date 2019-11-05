@@ -68,8 +68,9 @@ class Contact extends CI_Controller {
         
         // Pass POST data to view
         $data['postData'] = $formData;
-        
+        $data['title'] = 'Contact';
         // Pass the data to view
+		
 		$this->load->view('templates/header', $data);
         $this->load->view('contact/index', $data);
 		$this->load->view('templates/footer', $data);

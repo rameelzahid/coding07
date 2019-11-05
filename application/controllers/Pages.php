@@ -1,7 +1,9 @@
 <?php
-/*
-Your Header Here
-*/
+/*********************
+Name: Rameel Zahid
+Assignment: 07
+Purpose: This is the main controller for the home and about page.
+**********************/
 
 class Pages extends CI_Controller {
 
