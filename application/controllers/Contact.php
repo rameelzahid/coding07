@@ -70,7 +70,9 @@ class Contact extends CI_Controller {
         $data['postData'] = $formData;
         
         // Pass the data to view
+		$this->load->view('templates/header', $data);
         $this->load->view('contact/index', $data);
+		$this->load->view('templates/footer', $data);
     }
     
     private function sendEmail($mailData){

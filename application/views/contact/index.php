@@ -3,7 +3,7 @@ Name: Rameel Zahid
 Assignment: 07
 Purpose: This is the display for the contact form
 ********************* -->
-
+<h1>Contact Us</h1>
 <div class="content-frm">
     <!-- Display the status message -->
     <?php if(!empty($status)){ ?>
@@ -12,14 +12,7 @@ Purpose: This is the display for the contact form
     
     <!-- Contact form -->
     <form action="" method="post">
-        <div class="form-cw">
-            <h2>Contact Us</h2>
-            <button type="submit" name="contactSubmit" class="frm-submit" value="Submit">
-                <img src="<?php echo base_url('assets/images/mail.png'); ?>">
-            </button>
-            <div class="clear"></div>
-        </div>
-        
+     
         <div class="input-group">
             <input type="text" name="name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="NAME">
             <?php echo form_error('name','<p class="field-error">','</p>'); ?>
@@ -39,7 +32,7 @@ Purpose: This is the display for the contact form
             <textarea name="message" placeholder="YOUR MESSAGE"><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
             <?php echo form_error('message','<p class="field-error">','</p>'); ?>
         </div>
-        
+        <div class
         <input type="submit" name="contactSubmit" class="frm-submit" value="Submit">
     </form>
 </div>

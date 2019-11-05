@@ -53,7 +53,6 @@ em{
 	font-family:Impact, Charcoal, sans-serif;
 	color:teal;
 	text-align:center;
-	padding-top: 100px
 }
 
 .copyright {
@@ -65,24 +64,39 @@ p{
 	font-family:Impact, Charcoal, sans-serif;
 	color:steelblue;
 	text-align:center;
-	padding-bottom: 100px;
 }
 
 body{
 		background-color:WhiteSmoke;
 	}
 
-img {
-	width:100%;
+.input-group {
+	text-align:center;
+
 	
 }
 
-.image {
-
+.frm-submit {
 	text-align:center;
 }
 
+.content-frm {
 
+	text-align:center;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  font-family:Impact, Charcoal, sans-serif;
+  background-color: lightblue;
+  color: indigo;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 
 /*
@@ -134,7 +148,6 @@ Media Queries
 		font-family:Impact, Charcoal, sans-serif;
 		color:teal;
 		text-align:center;
-		padding-top: 100px;
 	}
 	
 	p{
@@ -148,16 +161,27 @@ Media Queries
 		background-color:MistyRose;
 	}
 
-	
-	img {
-	width:33.3%;
+	.input-group {
+	text-align:center;
+
 	
 	}
-	
-		.image {
-	
+
+	.frm-submit {
 		text-align:center;
 	}
+	input[type=submit] {
+	  width: 66.666666%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  background-color: lightblue;
+	  color: indigo;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
     
 }
 
@@ -204,7 +228,6 @@ Media Queries
 		font-family:Impact, Charcoal, sans-serif;
 		color:teal;
 		text-align:center;
-		padding-top: 100px;
 	}
 	
 	p{
@@ -218,15 +241,29 @@ Media Queries
 		background-color:NavajoWhite;
 	}
 
-		
-	img {
-	width:66.6%;
+	
+	.input-group {
+	text-align:center;
+
+	
 	}
-	
-	.image {
-	
+
+	.frm-submit {
 		text-align:center;
 	}
+	
+	input[type=submit] {
+	  width: 33.333333%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  background-color: lightblue;
+	  color: indigo;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
 	
     
 }
