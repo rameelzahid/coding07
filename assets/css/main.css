@@ -141,7 +141,7 @@ Media Queries
 */
 
 /*this is for tablet*/
-@media (min-width: 468px) and (max-width: 768px) {
+@media (min-width: 640px) and (max-width: 1200px) {
     nav {
 	  list-style-type: none;
 	  margin: 0;
@@ -257,7 +257,7 @@ Media Queries
 }
 
 /*this is for desktop*/
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 	nav {
 	  list-style-type: none;
 	  margin: 0;
